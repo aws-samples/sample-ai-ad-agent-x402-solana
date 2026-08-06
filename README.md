@@ -206,7 +206,7 @@ spl-token balance $TOKEN_MINT
    - Log in to your account
    - Go to [API Keys](https://home.openweathermap.org/api_keys)
    - Copy your default API key OR generate a new one
-   - Example: `<your-openweather-api-key>`
+   - Example: `YOUR_OPENWEATHER_API_KEY`
 
 3. **Verify API Key** (Optional but recommended)
    ```bash
@@ -234,7 +234,7 @@ Open `.env` in your favorite text editor and fill in the values:
 SELLER_ADDRESS=5tzFkiKscXHK5ZXCGbXZxdw7gTjjD1mBwuoFbhUvuAi9
 
 # Your OpenWeather API key (from Step 5)
-OPENWEATHER_API_KEY=<your-openweather-api-key>
+OPENWEATHER_API_KEY=YOUR_OPENWEATHER_API_KEY
 
 # The Token asset ID used for payment currency
 PAYMENT_TOKEN_ID=CvArN2zZbDkswQ4g8MZZUNnkJHbHpM5j7isaLfMARGbD  # If you created a new token replace teh value here, or use on of the known token ID (USDC..)
