@@ -1,0 +1,7 @@
+strands-agents
+strands-agents-tools
+strands-agents-builder
+solana
+solders
+base58
+boto3
